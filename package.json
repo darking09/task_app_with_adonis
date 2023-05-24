@@ -1,0 +1,31 @@
+{
+  "name": "task_app_with_adonis",
+  "version": "1.0.0",
+  "description": "Task app building with adonis",
+  "main": "index.js",
+  "scripts": {
+    "local": "ts-node index.ts",
+    "dev": "nodemon src -e ts,json --exec 'npm run local'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darking09/task_app_with_adonis.git"
+  },
+  "author": "darking09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darking09/task_app_with_adonis/issues"
+  },
+  "homepage": "https://github.com/darking09/task_app_with_adonis#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-regenerator": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@types/node": "^20.2.3",
+    "eslint": "^8.41.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
